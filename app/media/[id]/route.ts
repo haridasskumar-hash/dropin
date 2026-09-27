@@ -1,0 +1,2 @@
+import {env} from 'cloudflare:workers';
+export async function GET(r:Request,{params}:{params:Promise<{id:string}>}){try{const {id}=await params;const o=await (env as any).BUCKET.get(id);if(!o)return new Response('Not found',{status:404});return new Response(o.body,{headers:{'Content-Type':o.httpMetadata?.contentType||'application/octet-stream','Cache-Control':'public,max-age=86400','X-Content-Type-Options':'nosniff'}});}catch{return new Response('Image unavailable',{status:503});}}

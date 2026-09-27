@@ -1,0 +1,4 @@
+import {env} from 'cloudflare:workers';
+import {isAdmin,sameOrigin} from '@/lib/admin';
+import {saveItem} from '@/lib/content';
+export async function POST(r:Request){if(!await isAdmin()||!sameOrigin(r))return Response.json({error:'Administrator access required.'},{status:403});try{const f=(await r.formData()).get('file');if(!(f instanceof File)||f.size>10*1024*1024||!['image/jpeg','image/png','image/webp','image/gif'].includes(f.type))return Response.json({error:'Choose a JPG, PNG, WebP or GIF under 10 MB.'},{status:400});const id=crypto.randomUUID();await (env as any).BUCKET.put(id,await f.arrayBuffer(),{httpMetadata:{contentType:f.type}});const item={id,kind:'image',title:f.name,image:'/media/'+id};await saveItem(item);return Response.json(item);}catch(e){console.error(e);return Response.json({error:'Upload failed. Please try again.'},{status:503});}}

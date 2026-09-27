@@ -1,0 +1,1 @@
+import SiteUI from '../site-ui';import {allContent} from '@/lib/content';export const dynamic='force-dynamic';export const metadata={title:'Visit us at 38 Quán Sứ'};export default async function Page(){return <SiteUI items={await allContent()} view="locations"/>}

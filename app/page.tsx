@@ -1,0 +1,1 @@
+import SiteUI from './site-ui';import {allContent} from '@/lib/content';export const dynamic='force-dynamic';export default async function Home(){try{return <SiteUI items={await allContent()}/>;}catch(e){console.error(e);return <main className="section"><h1>We’ll be right back.</h1><p>We couldn’t load the café website. Please refresh in a moment.</p></main>}}

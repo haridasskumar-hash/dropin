@@ -1,0 +1,98 @@
+[
+  {
+    "id": "photo-cafe-seating",
+    "kind": "image",
+    "title": "Cafe Seating",
+    "image": "/assets/cafe/cafe-seating.jpg"
+  },
+  {
+    "id": "photo-pastry-selection",
+    "kind": "image",
+    "title": "Pastry Selection",
+    "image": "/assets/cafe/pastry-selection.jpg"
+  },
+  {
+    "id": "photo-coffee-and-croissants",
+    "kind": "image",
+    "title": "Coffee And Croissants",
+    "image": "/assets/cafe/coffee-and-croissants.jpg"
+  },
+  {
+    "id": "photo-cafe-lounge",
+    "kind": "image",
+    "title": "Cafe Lounge",
+    "image": "/assets/cafe/cafe-lounge.jpg"
+  },
+  {
+    "id": "photo-lime-ice-crush",
+    "kind": "image",
+    "title": "Lime Ice Crush",
+    "image": "/assets/cafe/lime-ice-crush.jpg"
+  },
+  {
+    "id": "photo-two-drinks",
+    "kind": "image",
+    "title": "Two Drinks",
+    "image": "/assets/cafe/two-drinks.jpg"
+  },
+  {
+    "id": "photo-quan-su-entrance",
+    "kind": "image",
+    "title": "Quan Su Entrance",
+    "image": "/assets/cafe/quan-su-entrance.jpg"
+  },
+  {
+    "id": "photo-lounge-seating",
+    "kind": "image",
+    "title": "Lounge Seating",
+    "image": "/assets/cafe/lounge-seating.jpg"
+  },
+  {
+    "id": "photo-matcha-reading",
+    "kind": "image",
+    "title": "Matcha Reading",
+    "image": "/assets/cafe/matcha-reading.jpg"
+  },
+  {
+    "id": "photo-bright-interior",
+    "kind": "image",
+    "title": "Bright Interior",
+    "image": "/assets/cafe/bright-interior.jpg"
+  },
+  {
+    "id": "photo-cafe-tables",
+    "kind": "image",
+    "title": "Cafe Tables",
+    "image": "/assets/cafe/cafe-tables.jpg"
+  },
+  {
+    "id": "photo-coffee-counter",
+    "kind": "image",
+    "title": "Coffee Counter",
+    "image": "/assets/cafe/coffee-counter.jpg"
+  },
+  {
+    "id": "photo-coffee-with-friends",
+    "kind": "image",
+    "title": "Coffee With Friends",
+    "image": "/assets/cafe/coffee-with-friends.jpg"
+  },
+  {
+    "id": "photo-courtyard-tables",
+    "kind": "image",
+    "title": "Courtyard Tables",
+    "image": "/assets/cafe/courtyard-tables.jpg"
+  },
+  {
+    "id": "photo-drink-selection",
+    "kind": "image",
+    "title": "Drink Selection",
+    "image": "/assets/cafe/drink-selection.jpg"
+  },
+  {
+    "id": "photo-citrus-coffee",
+    "kind": "image",
+    "title": "Citrus Coffee",
+    "image": "/assets/cafe/citrus-coffee.jpg"
+  }
+]
